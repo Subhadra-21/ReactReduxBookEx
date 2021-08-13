@@ -1,0 +1,76 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.book-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.bookItem {
+  min-height: 200px;
+  margin: 10px;
+  width: 40%;
+}
+
+.bookItemdiv {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.book-heading {
+  text-align: center;
+}
+
+.book-desc {
+  position: relative;
+  display: block;
+  min-height: 200px;
+}
+
+.book-cover-pic {
+  min-height: 100px;
+  min-width: 100px;
+  max-width: 200px;
+  float: right;
+  clear: left;
+}
+
+.form-book-modal {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.form-book-div {
+  width: 20%;
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 20%;
+  padding: 100px;
+}
+
+.form-grp {
+  margin-top: 20px;
+}
+
+.add-btn {
+  width: 100%;
+}
+
+.add-btn button {
+  margin-left: 88%;
+}
+
+.delete-btn {
+  background-color: red;
+  float: right;
+  margin-top: -2px;
+}
